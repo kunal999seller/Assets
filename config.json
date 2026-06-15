@@ -1,8 +1,14 @@
-[
-  {
-    "app-version": "1.2",
-    "app-logo": "https://raw.githubusercontent.com/kunal999seller/Assets/main/Bg-Removed.png",
-    "com.dts.freefireth.zip": "ZW5jcnlwdGVkLWJ5LWt1bmFsLW5vcm1hbC1mZg==",
-    "com.dts.freefiremax.zip": "ZW5jcnlwdGVkLWJ5LWt1bmFsLTk5OS1mZi1ub3JtYWw=",
-  }
-]
+{
+"app-version": "1.2",
+
+"app-logo": "https://raw.githubusercontent.com/kunal999seller/Assets/main/Bg-Removed.png",
+
+"downloads": {
+"com.dts.freefireth.zip": "ZW5jcnlwdGVkLWJ5LWt1bmFsLW5vcm1hbC1mZg==",
+"com.dts.freefiremax.zip": "ZW5jcnlwdGVkLWJ5LWt1bmFsLTk5OS1mZi1ub3JtYWw="
+},
+
+"github-token-base64": "Z2l0aHViX3BhdF8xMUI1SURBVVEwY1FPNGp3RmFSclhUX0pWeW5RREJVY01Nb0JiZTRaQkoyTllvTGtheEptS1ZoNHN6ak1xOUh2am00TUdYNkUyS3NBQW9xZVdN",
+
+"users-file": "users.json"
+}
