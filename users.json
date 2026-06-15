@@ -1,1 +1,89 @@
-
+{
+  "users": {
+    "demo_user": {
+      "password": "demo123",
+      "status": "active",
+      "subscription": {
+        "expiry_date": "2027-12-31",
+        "lifetime": false,
+        "paused": false,
+        "pause_start": "",
+        "pause_end": ""
+      },
+      "device_limit": 1,
+      "hwids": [],
+      "ban_reason": "",
+      "created_at": "2026-01-01",
+      "last_login": "",
+      "notes": ""
+    },
+    "premium_user": {
+      "password": "premium123",
+      "status": "active",
+      "subscription": {
+        "expiry_date": "2028-06-30",
+        "lifetime": false,
+        "paused": false,
+        "pause_start": "",
+        "pause_end": ""
+      },
+      "device_limit": 3,
+      "hwids": ["PC-111AAA", "PC-222BBB"],
+      "ban_reason": "",
+      "created_at": "2026-03-01",
+      "last_login": "2026-06-16 20:15:00",
+      "notes": "VIP Customer"
+    },
+    "lifetime_user": {
+      "password": "lifetime123",
+      "status": "active",
+      "subscription": {
+        "expiry_date": "",
+        "lifetime": true,
+        "paused": false,
+        "pause_start": "",
+        "pause_end": ""
+      },
+      "device_limit": 2,
+      "hwids": ["PC-LIFETIME001"],
+      "ban_reason": "",
+      "created_at": "2026-02-10",
+      "last_login": "2026-06-15 12:00:00",
+      "notes": ""
+    },
+    "paused_user": {
+      "password": "pause123",
+      "status": "active",
+      "subscription": {
+        "expiry_date": "2027-01-01",
+        "lifetime": false,
+        "paused": true,
+        "pause_start": "2026-06-15",
+        "pause_end": "2026-07-15"
+      },
+      "device_limit": 1,
+      "hwids": ["PC-PAUSED001"],
+      "ban_reason": "",
+      "created_at": "2026-05-01",
+      "last_login": "",
+      "notes": "Paused for vacation"
+    },
+    "banned_user": {
+      "password": "banned123",
+      "status": "banned",
+      "subscription": {
+        "expiry_date": "2027-12-31",
+        "lifetime": false,
+        "paused": false,
+        "pause_start": "",
+        "pause_end": ""
+      },
+      "device_limit": 1,
+      "hwids": ["PC-BANNED001"],
+      "ban_reason": "Account sharing detected",
+      "created_at": "2026-04-01",
+      "last_login": "",
+      "notes": ""
+    }
+  }
+}
