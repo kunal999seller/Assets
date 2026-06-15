@@ -1,89 +1,148 @@
 {
-  "users": {
-    "demo_user": {
-      "password": "demo123",
+  "users": [
+    {
+      "username": "1",
+      "password": "1",
+
       "status": "active",
+
       "subscription": {
         "expiry_date": "2027-12-31",
         "lifetime": false,
-        "paused": false,
         "pause_start": "",
         "pause_end": ""
       },
+
       "device_limit": 1,
-      "hwids": [],
+
+      "hwids": [
+        {
+          "hwid": "d8156bae0c4243d3742fc4e9774d8ace",
+          "registered_at": "2026-06-16T10:00:00Z"
+        }
+      ],
+
       "ban_reason": "",
-      "created_at": "2026-01-01",
-      "last_login": "",
-      "notes": ""
+
+      "created_at": "2026-01-10T00:00:00Z",
+      "last_login": "2026-06-16T20:00:00Z",
+      "updated_at": "2026-06-16T20:00:00Z",
+
+      "notes": "Normal active user"
     },
-    "premium_user": {
-      "password": "premium123",
-      "status": "active",
+
+    {
+      "username": "paused_user",
+      "password": "123",
+
+      "status": "paused",
+
       "subscription": {
-        "expiry_date": "2028-06-30",
+        "expiry_date": "2027-10-10",
         "lifetime": false,
-        "paused": false,
+        "pause_start": "2026-06-10",
+        "pause_end": "2026-07-10"
+      },
+
+      "device_limit": 1,
+
+      "hwids": [],
+
+      "ban_reason": "",
+
+      "created_at": "2026-02-01T00:00:00Z",
+      "last_login": "2026-06-10T12:00:00Z",
+      "updated_at": "2026-06-10T12:00:00Z",
+
+      "notes": "Subscription temporarily paused"
+    },
+
+    {
+      "username": "banned_user",
+      "password": "123",
+
+      "status": "banned",
+
+      "subscription": {
+        "expiry_date": "2027-12-31",
+        "lifetime": false,
         "pause_start": "",
         "pause_end": ""
       },
-      "device_limit": 3,
-      "hwids": ["PC-111AAA", "PC-222BBB"],
-      "ban_reason": "",
-      "created_at": "2026-03-01",
-      "last_login": "2026-06-16 20:15:00",
-      "notes": "VIP Customer"
+
+      "device_limit": 1,
+
+      "hwids": [
+        {
+          "hwid": "HWID-BANNED-001",
+          "registered_at": "2026-05-01T10:00:00Z"
+        }
+      ],
+
+      "ban_reason": "Account sharing detected",
+
+      "created_at": "2026-03-01T00:00:00Z",
+      "last_login": "2026-06-01T18:00:00Z",
+      "updated_at": "2026-06-01T18:00:00Z",
+
+      "notes": "Permanent ban"
     },
-    "lifetime_user": {
-      "password": "lifetime123",
+
+    {
+      "username": "expired_user",
+      "password": "123",
+
+      "status": "expired",
+
+      "subscription": {
+        "expiry_date": "2025-12-31",
+        "lifetime": false,
+        "pause_start": "",
+        "pause_end": ""
+      },
+
+      "device_limit": 1,
+
+      "hwids": [],
+
+      "ban_reason": "",
+
+      "created_at": "2025-01-01T00:00:00Z",
+      "last_login": "2025-12-30T10:00:00Z",
+      "updated_at": "2025-12-31T00:00:00Z",
+
+      "notes": "Subscription expired"
+    },
+
+    {
+      "username": "lifetime_user",
+      "password": "123",
+
       "status": "active",
+
       "subscription": {
         "expiry_date": "",
         "lifetime": true,
-        "paused": false,
         "pause_start": "",
         "pause_end": ""
       },
-      "device_limit": 2,
-      "hwids": ["PC-LIFETIME001"],
+
+      "device_limit": 3,
+
+      "hwids": [
+        {
+          "hwid": "HWID-LIFE-001",
+          "registered_at": "2026-06-16T08:00:00Z"
+        }
+      ],
+
       "ban_reason": "",
-      "created_at": "2026-02-10",
-      "last_login": "2026-06-15 12:00:00",
-      "notes": ""
-    },
-    "paused_user": {
-      "password": "pause123",
-      "status": "active",
-      "subscription": {
-        "expiry_date": "2027-01-01",
-        "lifetime": false,
-        "paused": true,
-        "pause_start": "2026-06-15",
-        "pause_end": "2026-07-15"
-      },
-      "device_limit": 1,
-      "hwids": ["PC-PAUSED001"],
-      "ban_reason": "",
-      "created_at": "2026-05-01",
-      "last_login": "",
-      "notes": "Paused for vacation"
-    },
-    "banned_user": {
-      "password": "banned123",
-      "status": "banned",
-      "subscription": {
-        "expiry_date": "2027-12-31",
-        "lifetime": false,
-        "paused": false,
-        "pause_start": "",
-        "pause_end": ""
-      },
-      "device_limit": 1,
-      "hwids": ["PC-BANNED001"],
-      "ban_reason": "Account sharing detected",
-      "created_at": "2026-04-01",
-      "last_login": "",
-      "notes": ""
+
+      "created_at": "2026-01-01T00:00:00Z",
+      "last_login": "2026-06-16T21:00:00Z",
+      "updated_at": "2026-06-16T21:00:00Z",
+
+      "notes": "Lifetime access user"
     }
-  }
+  ]
 }
