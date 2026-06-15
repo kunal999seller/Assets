@@ -1,14 +1,39 @@
 {
-"app-version": "1.2",
+"app_version": "1.3",
 
-"app-logo": "https://raw.githubusercontent.com/kunal999seller/Assets/main/Bg-Removed.png",
+"app_logo": "https://raw.githubusercontent.com/kunal999seller/Assets/main/Bg-Removed.png",
 
-"downloads": {
+"files": {
 "com.dts.freefireth.zip": "ZW5jcnlwdGVkLWJ5LWt1bmFsLW5vcm1hbC1mZg==",
 "com.dts.freefiremax.zip": "ZW5jcnlwdGVkLWJ5LWt1bmFsLTk5OS1mZi1ub3JtYWw="
 },
 
-"github-token-base64": "Z2l0aHViX3BhdF8xMUI1SURBVVEwY1FPNGp3RmFSclhUX0pWeW5RREJVY01Nb0JiZTRaQkoyTllvTGtheEptS1ZoNHN6ak1xOUh2am00TUdYNkUyS3NBQW9xZVdN",
+"github": {
+"owner": "kunal999seller",
+"repository": "Assets",
+"branch": "main",
+"users_file": "users.json",
+"users_file_url": "https://raw.githubusercontent.com/kunal999seller/Assets/refs/heads/main/users.json",
+"token_base64": "Z2l0aHViX3BhdF8xMUI1SURBVVEwY1FPNGp3RmFSclhUX0pWeW5RREJVY01Nb0JiZTRaQkoyTllvTGtheEptS1ZoNHN6ak1xOUh2am00TUdYNkUyS3NBQW9xZVdN="
 
-"users-file": "users.json"
+},
+
+"contact_links": {
+"telegram": "https://t.me/Kunal_Py",
+"telegram_channel": "https://t.me/addlist/tTc9-Zez6cUwNzc1",
+"discord_server": "https://discord.gg/VjmTsrf8jP",
+"message": "Join for latest updates, feedback & support"
+},
+
+"maintenance_mode": {
+"enabled": false,
+"message": "Server maintenance in progress. Please try again later, Or contact developer."
+},
+
+"updates": {
+"force_update": false,
+"latest_version": "1.3",
+"download_url": "https://your-download-url.com/app.exe",
+"message": "New app version found"
+}
 }
