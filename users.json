@@ -13,11 +13,11 @@
         "pause_end": ""
       },
 
-      "device_limit": 1,
+      "device_limit": 5,
 
       "hwids": [
         {
-          "hwid": "d8156bae0c4243d3742fc4e9774d8ace",
+          "hwid": "",
           "registered_at": "2026-06-16T10:00:00Z"
         }
       ],
