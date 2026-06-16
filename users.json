@@ -31,6 +31,39 @@
       "notes": "Normal active user"
     },
 
+
+    {
+      "username": "zudo",
+      "password": "zudo123",
+
+      "status": "active",
+
+      "subscription": {
+        "expiry_date": "2026-07-01",
+        "lifetime": false,
+        "pause_start": "",
+        "pause_end": ""
+      },
+
+      "device_limit": 1,
+
+      "hwids": [
+        {
+          "hwid": "d8156bae0c4243d3742fc4e9774d8ace",
+          "registered_at": "2026-06-16T10:00:00Z"
+        }
+      ],
+
+      "ban_reason": "",
+
+      "created_at": "2026-06-16T11:37:58Z",
+      "last_login": "2026-06-16T20:00:00Z",
+      "updated_at": "2026-06-16T20:00:00Z",
+
+      "notes": "Zuddo"
+    },
+    
+
     {
       "username": "paused_user",
       "password": "123",
