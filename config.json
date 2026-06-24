@@ -1,11 +1,10 @@
 {
-"app_version": "5.0",
-
+"app_version": "1.2",
 "app_logo": "https://raw.githubusercontent.com/kunal999seller/Assets/main/Bg-Removed.png",
 
 "files": {
-"com.dts.freefireth.zip": "ZW5jcnlwdGVkLWJ5LWt1bmFsLW5vcm1hbC1mZg==",
-"com.dts.freefiremax.zip": "ZW5jcnlwdGVkLWJ5LWt1bmFsLTk5OS1mZi1ub3JtYWw="
+"com.dts.freefireth.zip": "Z2xvYmFsLWZmLWVuY29kZWQtcGFzc3dvcmQtYnkta3VuYWw=",
+"com.dts.freefiremax.zip": "ZmYtbWF4LWVuY29kZWQtcGFzc3dvcmQtYnkta3VuYWw="
 },
 
 "github": {
@@ -15,7 +14,6 @@
 "users_file": "users.json",
 "users_file_url": "https://raw.githubusercontent.com/kunal999seller/Assets/refs/heads/main/users.json",
 "token_base64": "Z2l0aHViX3BhdF8xMUI1SURBVVEwY1FPNGp3RmFSclhUX0pWeW5RREJVY01Nb0JiZTRaQkoyTllvTGtheEptS1ZoNHN6ak1xOUh2am00TUdYNkUyS3NBQW9xZVdN="
-
 },
 
 "contact_links": {
@@ -32,7 +30,7 @@
 
 "updates": {
 "force_update": false,
-"latest_version": "5.0",
+"latest_version": "1.2",
 "download_url": "https://your-download-url.com/app.exe",
 "message": "New app version found"
 }
