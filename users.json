@@ -12,15 +12,15 @@
       "notes": "Normal active user"
     },
     {
-      "username": "zudo",
-      "password": "zuddo123",
+      "username": "wmt",
+      "password": "unity",
       "status": "active",
       "subscription": {
-        "expiry_date": "2026-07-10",
+        "expiry_date": "2026-07-9",
         "lifetime": false
       },
-      "created_at": "2026-06-30T16:21:42Z",
-      "notes": "Zuddo Global FF Hologram + 50% Headshot"
+      "created_at": "2026-07-08T11:56:42Z",
+      "notes": "Wmt Unity Global FF Hologram + 50% Headshot"
     },
     {
       "username": "zuddo",
