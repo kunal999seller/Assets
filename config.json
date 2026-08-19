@@ -5,8 +5,8 @@
 "files": {
 "com.dts.freefireth.zip": "Z2xvYmFsLWZmLWVuY29kZWQtcGFzc3dvcmQtYnkta3VuYWw=",
 "com.dts.freefiremax.zip": "ZmYtbWF4LWVuY29kZWQtcGFzc3dvcmQtYnkta3VuYWw=",
-"Kunal-999.Global.FF.Hologram+50%hs(15-July).zip": "a3VuYWwtOTk5LWZmLWdsb2JhbC0xNS1qdWx5",
-"Kunal-999.FF.Max.Hologram+50%hs(15-July).zip": "a3VuYWwtOTk5LWZmLW1heC0xNS1qdWx5"
+"Kunal X 999 Global FF Hologram + 50%hs (20-August).zip": "a3VuYWx4OTk5LWZmLWdsb2JhbC0yMC1hdWd1c3QtdXBkYXRl",
+"Kunal X 999 FF Max Hologram + 50%hs (20-August).zip": "a3VuYWx4OTk5LWZmLW1heC0yMC1hdWd1c3QtdXBkYXRl"
 },
 
 "github": {
@@ -26,14 +26,14 @@
 },
 
 "maintenance_mode": {
-"enabled": false,
+"enabled": true,
 "message": "Server maintenance in progress. Please try again later, Or contact developer."
 },
 
 "updates": {
-"force_update": false,
+"force_update": true,
 "latest_version": "1.1",
-"download_url": "https://your-download-url.com/app.exe",
+"download_url": "https://download.com/app.exe",
 "message": "New app version found"
 }
 }
