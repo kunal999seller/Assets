@@ -1,12 +1,12 @@
 {
-   "app_version":"1.3",
+   "app_version":"1.4",
    "app_logo":"https://raw.githubusercontent.com/kunal999seller/Assets/main/Bg-Removed.png",
    "files":{
       "com.dts.freefireth.zip":"Z2xvYmFsLWZmLWVuY29kZWQtcGFzc3dvcmQtYnkta3VuYWw=",
       "com.dts.freefiremax.zip":"ZmYtbWF4LWVuY29kZWQtcGFzc3dvcmQtYnkta3VuYWw=",
       "Kunal X 999 Global FF Hologram + 40% Drag Hs (16-September)-fixed.zip":"a3VuYWx4OTk5LWZmLWdsb2JhbC0xNi1zZXB0ZW1iZXItdXBkYXRl",
       "Kunal X 999 FF Max Hologram + 50%hs (20-August).zip":"a3VuYWx4OTk5LWZmLW1heC0yMC1hdWd1c3QtdXBkYXRl",
-      "kunal x 999 FreeFire India 28 oct.zip":"S3VuYWwgeCA5OTkgRnJlZSBGaXJlIEluZGlhIEhvbG9ncmFt"
+      "Kunal x 999 FreeFire India Hologram + 40% Drag Hs (20 November).zip":"S3VuYWwgeCA5OTkgRnJlZSBGaXJlIEluZGlhIEhvbG9ncmFt"
    },
    "github":{
       "owner":"kunal999seller",
@@ -28,8 +28,8 @@
    },
    "updates":{
       "force_update":true,
-      "latest_version":"1.3",
-      "download_url":"https://github.com/kunal999seller/release/releases/download/v1.3-Pro/Kunal.999.Adb.Tool.v1.3.Pro.exe",
+      "latest_version":"1.4",
+      "download_url":"https://github.com/kunal999seller/release/releases/download/v1.4-Pro/Kunal x 999 Adb Tool v1.4 Pro.exe",
       "message":"New app version found, Contact Developer on Discord/Telegram to get Latest Version."
    }
 }
